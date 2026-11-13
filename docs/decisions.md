@@ -4,7 +4,7 @@
 - **Node.js:** v26.4.0
 - **Git:** 2.56.1.windows.1
 - **Editor:** VS Code
-- **REST Client:** [Write whichever you picked: Bruno / Insomnia / Postman / Thunder Client]
+- **REST Client:** Bruno
 
 ## 2. Data & Domain Conventions
 - **Money:** All monetary values are stored and calculated strictly in **integer cents** (e.g., `1250` for `€12.50`). Never use floating-point numbers for currency.

@@ -1,0 +1,659 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "originX": 0,
+    "originY": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 32,
+    "databaseName": "SATMS",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "lockSettings": 63
+  },
+  "doc": {
+    "tableIds": [
+      "03h8bg6mry47755yf5ou0oy77",
+      "03h8bh7p5me04n8tel68z6le3",
+      "03h8bhp8k19xuxiyfawgqi2uq",
+      "03h8bi4921xro6yzjlhuldg8r",
+      "03h8bj8fbimxcrp1loovcl02g",
+      "03h8bjieky66yvv9mh51oi543",
+      "03h8bjilptbcsfx42e5nyg86i",
+      "03h8bfui66kbcq4tjcvq2g92d"
+    ],
+    "relationshipIds": [
+      "03h8bhw11m5moko1irwo4xwrw",
+      "03h8biropiwjt9pwj7kzwg0yi",
+      "03h8biwa3vjaqm4roymdwgyp7",
+      "03h8bjb4w2kn6llx9wc7lmbid",
+      "03h8bgyriu8gh5d9s2rhf6mw1",
+      "03h8bixv6xu7huw4oo8eyqqv3"
+    ],
+    "tableGroupIds": [
+      "03h8bh62qei1s930m4kpes761",
+      "03h8bjhf5aegbrxq8vn3przsq"
+    ]
+  },
+  "collections": {
+    "tableEntities": {
+      "03h8bfui66kbcq4tjcvq2g92d": {
+        "id": "03h8bfui66kbcq4tjcvq2g92d",
+        "name": "Products",
+        "columnIds": [
+          "03h8bfv7cq2tmr1pr62o5ingn",
+          "03h8bfykt18gzx1hahsh657xj",
+          "03h8bg05yizdc6115f2dedna4",
+          "03h8bg18p4jfbu9c078rme2n5",
+          "03h8bg2l3qd0u4ao7on98w4e2",
+          "03h8bg5awsg7dr4uzfww5o2rb"
+        ],
+        "groupId": "03h8bh62qei1s930m4kpes761",
+        "ui": {
+          "x": -62.1407,
+          "y": 265.3191
+        }
+      },
+      "03h8bg6mry47755yf5ou0oy77": {
+        "id": "03h8bg6mry47755yf5ou0oy77",
+        "name": "ProductVariant",
+        "columnIds": [
+          "03h8bg7nhn0m31f0lw75m13yq",
+          "03h8bg9jwjx7nbpbcsx0b22ol",
+          "03h8bgyriu8gh5d9s2pgd6q86",
+          "03h8bgbq9yiofocge6bonr7s8",
+          "03h8bgcrzhra9ie1us3m77yi1",
+          "03h8bgfy494tdm8ovgk7woq8p",
+          "03h8bgjks5wij3kl3us8lg9pe"
+        ],
+        "groupId": "03h8bh62qei1s930m4kpes761",
+        "ui": {
+          "x": 544.6806,
+          "y": 278.6088
+        }
+      },
+      "03h8bh7p5me04n8tel68z6le3": {
+        "id": "03h8bh7p5me04n8tel68z6le3",
+        "name": "Purchases",
+        "columnIds": [
+          "03h8bh8i49lfpv5xdl965hw9z",
+          "03h8bh9uu40xn84fuqlptb4dv",
+          "03h8bhbpwf4dzwaa3gz7ucdd2",
+          "03h8bhcz6x6q9uptd2rz0hfyn",
+          "03h8bhepd6gx4kusrqdoj3q18",
+          "03h8bhfkx390wthtdz41skuc0",
+          "03h8bhgeolhaf0b0dprg38qoj",
+          "03h8bhi2vriachrzm5gg0srt4",
+          "03h8bhiv2rho8o1dzuzi3a900"
+        ],
+        "groupId": "03h8bjhf5aegbrxq8vn3przsq",
+        "ui": {
+          "x": -82.5577,
+          "y": 658.5245
+        }
+      },
+      "03h8bhp8k19xuxiyfawgqi2uq": {
+        "id": "03h8bhp8k19xuxiyfawgqi2uq",
+        "name": "PurchasePayment",
+        "columnIds": [
+          "03h8bhqbaherlw1snif8f1i97",
+          "03h8bhw11gkzki7nioit2ifqr",
+          "03h8bhwxrat931snwfb389g0f",
+          "03h8bhz80g5pspkndie84kptp",
+          "03h8bi0nlw14b00d35lh1o311",
+          "03h8bi22xwwu1bphgmww2n2wd"
+        ],
+        "groupId": "03h8bjhf5aegbrxq8vn3przsq",
+        "ui": {
+          "x": 541.7627,
+          "y": 907.4974
+        }
+      },
+      "03h8bi4921xro6yzjlhuldg8r": {
+        "id": "03h8bi4921xro6yzjlhuldg8r",
+        "name": "PurchaseItem",
+        "columnIds": [
+          "03h8bi5nn1947nexgkf8pmpjp",
+          "03h8biropiwjt9pwj7j6pl7zs",
+          "03h8bis187n0n8v1hkuluoiav",
+          "03h8bisn9aconzz0gqsvivueb",
+          "03h8bixv6xu7huw4oo6ewcffm",
+          "03h8biwa3vjaqm4royiv465ms",
+          "03h8bj34jxu8vfd1fhn5g7mbk",
+          "03h8bj3ih26cf96avmkfdazuc"
+        ],
+        "groupId": "03h8bjhf5aegbrxq8vn3przsq",
+        "ui": {
+          "x": 543.5352,
+          "y": 650.274
+        }
+      },
+      "03h8bj8fbimxcrp1loovcl02g": {
+        "id": "03h8bj8fbimxcrp1loovcl02g",
+        "name": "TaxValue",
+        "columnIds": [
+          "03h8bj9b2q2hrvrmzzshav2w7",
+          "03h8bjb4vx17v3foli93ww8q5",
+          "03h8bjbnat8v7x5irti1zzlpz",
+          "03h8bjcwl5xpyqic64mm8jae5",
+          "03h8bjduap35eiwkill554z3y",
+          "03h8bjeoxsv1f8116h304f9v5"
+        ],
+        "groupId": "03h8bjhf5aegbrxq8vn3przsq",
+        "ui": {
+          "x": -73.0096,
+          "y": 984.2861
+        }
+      },
+      "03h8bjieky66yvv9mh51oi543": {
+        "id": "03h8bjieky66yvv9mh51oi543",
+        "name": "SyncState",
+        "columnIds": [
+          "03h8bjkntc9da7wcxqquivhay",
+          "03h8bjlasfuf1xu9e3re7s9ue",
+          "03h8bjm6m848i43apbx69v67j"
+        ],
+        "ui": {
+          "x": 1080.3779,
+          "y": 588.2869
+        }
+      },
+      "03h8bjilptbcsfx42e5nyg86i": {
+        "id": "03h8bjilptbcsfx42e5nyg86i",
+        "columnIds": [],
+        "ui": {
+          "x": -62.77095890410955,
+          "y": 347.87726027397264
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "03h8bfv7cq2tmr1pr62o5ingn": {
+        "id": "03h8bfv7cq2tmr1pr62o5ingn",
+        "tableId": "03h8bfui66kbcq4tjcvq2g92d",
+        "name": "id",
+        "dataType": "INT4",
+        "default": "PK",
+        "options": 10
+      },
+      "03h8bfykt18gzx1hahsh657xj": {
+        "id": "03h8bfykt18gzx1hahsh657xj",
+        "tableId": "03h8bfui66kbcq4tjcvq2g92d",
+        "name": "zettleUuid",
+        "dataType": "UUID",
+        "options": 8
+      },
+      "03h8bg05yizdc6115f2dedna4": {
+        "id": "03h8bg05yizdc6115f2dedna4",
+        "tableId": "03h8bfui66kbcq4tjcvq2g92d",
+        "name": "name",
+        "dataType": "STRING",
+        "options": 0
+      },
+      "03h8bg18p4jfbu9c078rme2n5": {
+        "id": "03h8bg18p4jfbu9c078rme2n5",
+        "tableId": "03h8bfui66kbcq4tjcvq2g92d",
+        "name": "categoryuuid",
+        "dataType": "UUID",
+        "options": 0
+      },
+      "03h8bg2l3qd0u4ao7on98w4e2": {
+        "id": "03h8bg2l3qd0u4ao7on98w4e2",
+        "tableId": "03h8bfui66kbcq4tjcvq2g92d",
+        "name": "categoryName",
+        "dataType": "STRING",
+        "options": 0
+      },
+      "03h8bg5awsg7dr4uzfww5o2rb": {
+        "id": "03h8bg5awsg7dr4uzfww5o2rb",
+        "tableId": "03h8bfui66kbcq4tjcvq2g92d",
+        "name": "updatedAt",
+        "dataType": "TIMESTAMP",
+        "options": 0
+      },
+      "03h8bg7nhn0m31f0lw75m13yq": {
+        "id": "03h8bg7nhn0m31f0lw75m13yq",
+        "tableId": "03h8bg6mry47755yf5ou0oy77",
+        "name": "id",
+        "dataType": "INT4",
+        "default": "PK",
+        "options": 10
+      },
+      "03h8bg9jwjx7nbpbcsx0b22ol": {
+        "id": "03h8bg9jwjx7nbpbcsx0b22ol",
+        "tableId": "03h8bg6mry47755yf5ou0oy77",
+        "name": "zettleUuid",
+        "dataType": "UUID",
+        "options": 0
+      },
+      "03h8bgbq9yiofocge6bonr7s8": {
+        "id": "03h8bgbq9yiofocge6bonr7s8",
+        "tableId": "03h8bg6mry47755yf5ou0oy77",
+        "name": "priceAmount",
+        "comment": "in cents",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bgcrzhra9ie1us3m77yi1": {
+        "id": "03h8bgcrzhra9ie1us3m77yi1",
+        "tableId": "03h8bg6mry47755yf5ou0oy77",
+        "name": "costPriceAmount",
+        "comment": "in cents",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bgfy494tdm8ovgk7woq8p": {
+        "id": "03h8bgfy494tdm8ovgk7woq8p",
+        "tableId": "03h8bg6mry47755yf5ou0oy77",
+        "name": "vatPercentage",
+        "comment": "/100",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bgjks5wij3kl3us8lg9pe": {
+        "id": "03h8bgjks5wij3kl3us8lg9pe",
+        "tableId": "03h8bg6mry47755yf5ou0oy77",
+        "name": "SKU",
+        "options": 0
+      },
+      "03h8bgyriu8gh5d9s2pgd6q86": {
+        "id": "03h8bgyriu8gh5d9s2pgd6q86",
+        "tableId": "03h8bg6mry47755yf5ou0oy77",
+        "name": "Products_id",
+        "dataType": "INT4",
+        "default": "FK",
+        "options": 8
+      },
+      "03h8bh8i49lfpv5xdl965hw9z": {
+        "id": "03h8bh8i49lfpv5xdl965hw9z",
+        "tableId": "03h8bh7p5me04n8tel68z6le3",
+        "name": "id",
+        "dataType": "INT4",
+        "default": "PK",
+        "options": 10
+      },
+      "03h8bh9uu40xn84fuqlptb4dv": {
+        "id": "03h8bh9uu40xn84fuqlptb4dv",
+        "tableId": "03h8bh7p5me04n8tel68z6le3",
+        "name": "purchaseUuid1",
+        "comment": "from Zettle",
+        "dataType": "UUID",
+        "options": 0
+      },
+      "03h8bhbpwf4dzwaa3gz7ucdd2": {
+        "id": "03h8bhbpwf4dzwaa3gz7ucdd2",
+        "tableId": "03h8bh7p5me04n8tel68z6le3",
+        "name": "shoppingCartUuid",
+        "dataType": "UUID",
+        "options": 0
+      },
+      "03h8bhcz6x6q9uptd2rz0hfyn": {
+        "id": "03h8bhcz6x6q9uptd2rz0hfyn",
+        "tableId": "03h8bh7p5me04n8tel68z6le3",
+        "name": "created",
+        "dataType": "DATETIME",
+        "options": 0
+      },
+      "03h8bhepd6gx4kusrqdoj3q18": {
+        "id": "03h8bhepd6gx4kusrqdoj3q18",
+        "tableId": "03h8bh7p5me04n8tel68z6le3",
+        "name": "taxationMode",
+        "dataType": "STRING",
+        "options": 0
+      },
+      "03h8bhfkx390wthtdz41skuc0": {
+        "id": "03h8bhfkx390wthtdz41skuc0",
+        "tableId": "03h8bh7p5me04n8tel68z6le3",
+        "name": "refunded",
+        "dataType": "BOOLEAN",
+        "options": 0
+      },
+      "03h8bhgeolhaf0b0dprg38qoj": {
+        "id": "03h8bhgeolhaf0b0dprg38qoj",
+        "tableId": "03h8bh7p5me04n8tel68z6le3",
+        "name": "fiscalIntegrator",
+        "dataType": "STRING",
+        "options": 0
+      },
+      "03h8bhi2vriachrzm5gg0srt4": {
+        "id": "03h8bhi2vriachrzm5gg0srt4",
+        "tableId": "03h8bh7p5me04n8tel68z6le3",
+        "name": "fiscalTxId",
+        "dataType": "STRING",
+        "options": 0
+      },
+      "03h8bhiv2rho8o1dzuzi3a900": {
+        "id": "03h8bhiv2rho8o1dzuzi3a900",
+        "tableId": "03h8bh7p5me04n8tel68z6le3",
+        "name": "clientId",
+        "dataType": "STRING",
+        "options": 0
+      },
+      "03h8bhqbaherlw1snif8f1i97": {
+        "id": "03h8bhqbaherlw1snif8f1i97",
+        "tableId": "03h8bhp8k19xuxiyfawgqi2uq",
+        "name": "id",
+        "dataType": "INT4",
+        "default": "PK",
+        "options": 10
+      },
+      "03h8bhw11gkzki7nioit2ifqr": {
+        "id": "03h8bhw11gkzki7nioit2ifqr",
+        "tableId": "03h8bhp8k19xuxiyfawgqi2uq",
+        "name": "Purchases_id",
+        "dataType": "INT4",
+        "default": "FK",
+        "options": 8
+      },
+      "03h8bhwxrat931snwfb389g0f": {
+        "id": "03h8bhwxrat931snwfb389g0f",
+        "tableId": "03h8bhp8k19xuxiyfawgqi2uq",
+        "name": "uuid",
+        "comment": "Zettle Payment UUID",
+        "dataType": "UUID",
+        "options": 0
+      },
+      "03h8bhz80g5pspkndie84kptp": {
+        "id": "03h8bhz80g5pspkndie84kptp",
+        "tableId": "03h8bhp8k19xuxiyfawgqi2uq",
+        "name": "amount",
+        "comment": "in cents",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bi0nlw14b00d35lh1o311": {
+        "id": "03h8bi0nlw14b00d35lh1o311",
+        "tableId": "03h8bhp8k19xuxiyfawgqi2uq",
+        "name": "type",
+        "comment": "Cash/card...",
+        "dataType": "STRING",
+        "options": 0
+      },
+      "03h8bi22xwwu1bphgmww2n2wd": {
+        "id": "03h8bi22xwwu1bphgmww2n2wd",
+        "tableId": "03h8bhp8k19xuxiyfawgqi2uq",
+        "name": "handedAmount",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bi5nn1947nexgkf8pmpjp": {
+        "id": "03h8bi5nn1947nexgkf8pmpjp",
+        "tableId": "03h8bi4921xro6yzjlhuldg8r",
+        "name": "id",
+        "dataType": "INT4",
+        "default": "PK",
+        "options": 10
+      },
+      "03h8biropiwjt9pwj7j6pl7zs": {
+        "id": "03h8biropiwjt9pwj7j6pl7zs",
+        "tableId": "03h8bi4921xro6yzjlhuldg8r",
+        "name": "Purchases_id",
+        "dataType": "INT4",
+        "default": "FK",
+        "options": 8
+      },
+      "03h8bis187n0n8v1hkuluoiav": {
+        "id": "03h8bis187n0n8v1hkuluoiav",
+        "tableId": "03h8bi4921xro6yzjlhuldg8r",
+        "name": "uuid",
+        "dataType": "UUID",
+        "options": 0
+      },
+      "03h8bisn9aconzz0gqsvivueb": {
+        "id": "03h8bisn9aconzz0gqsvivueb",
+        "tableId": "03h8bi4921xro6yzjlhuldg8r",
+        "name": "amount",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8biwa3vjaqm4royiv465ms": {
+        "id": "03h8biwa3vjaqm4royiv465ms",
+        "tableId": "03h8bi4921xro6yzjlhuldg8r",
+        "name": "ProductVariant_id",
+        "dataType": "INT4",
+        "default": "FK",
+        "options": 8
+      },
+      "03h8bixv6xu7huw4oo6ewcffm": {
+        "id": "03h8bixv6xu7huw4oo6ewcffm",
+        "tableId": "03h8bi4921xro6yzjlhuldg8r",
+        "name": "Products_id",
+        "dataType": "INT4",
+        "default": "FK",
+        "options": 8
+      },
+      "03h8bj34jxu8vfd1fhn5g7mbk": {
+        "id": "03h8bj34jxu8vfd1fhn5g7mbk",
+        "tableId": "03h8bi4921xro6yzjlhuldg8r",
+        "name": "quantity",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bj3ih26cf96avmkfdazuc": {
+        "id": "03h8bj3ih26cf96avmkfdazuc",
+        "tableId": "03h8bi4921xro6yzjlhuldg8r",
+        "name": "unitPriceAmount",
+        "comment": "in cents",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bj9b2q2hrvrmzzshav2w7": {
+        "id": "03h8bj9b2q2hrvrmzzshav2w7",
+        "tableId": "03h8bj8fbimxcrp1loovcl02g",
+        "name": "id",
+        "dataType": "INT4",
+        "default": "PK",
+        "options": 10
+      },
+      "03h8bjb4vx17v3foli93ww8q5": {
+        "id": "03h8bjb4vx17v3foli93ww8q5",
+        "tableId": "03h8bj8fbimxcrp1loovcl02g",
+        "name": "Purchases_id",
+        "dataType": "INT4",
+        "default": "FK",
+        "options": 8
+      },
+      "03h8bjbnat8v7x5irti1zzlpz": {
+        "id": "03h8bjbnat8v7x5irti1zzlpz",
+        "tableId": "03h8bj8fbimxcrp1loovcl02g",
+        "name": "taxValue",
+        "comment": "7 or 19",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bjcwl5xpyqic64mm8jae5": {
+        "id": "03h8bjcwl5xpyqic64mm8jae5",
+        "tableId": "03h8bj8fbimxcrp1loovcl02g",
+        "name": "tax Amount",
+        "comment": "in cents",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bjduap35eiwkill554z3y": {
+        "id": "03h8bjduap35eiwkill554z3y",
+        "tableId": "03h8bj8fbimxcrp1loovcl02g",
+        "name": "taxableAmount",
+        "comment": "in cents",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bjeoxsv1f8116h304f9v5": {
+        "id": "03h8bjeoxsv1f8116h304f9v5",
+        "tableId": "03h8bj8fbimxcrp1loovcl02g",
+        "name": "totalAmount",
+        "comment": "in cents",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h8bjkntc9da7wcxqquivhay": {
+        "id": "03h8bjkntc9da7wcxqquivhay",
+        "tableId": "03h8bjieky66yvv9mh51oi543",
+        "name": "id",
+        "dataType": "INT4",
+        "default": "PK",
+        "options": 10
+      },
+      "03h8bjlasfuf1xu9e3re7s9ue": {
+        "id": "03h8bjlasfuf1xu9e3re7s9ue",
+        "tableId": "03h8bjieky66yvv9mh51oi543",
+        "name": "lastPurchaseHash",
+        "dataType": "STRING",
+        "options": 0
+      },
+      "03h8bjm6m848i43apbx69v67j": {
+        "id": "03h8bjm6m848i43apbx69v67j",
+        "tableId": "03h8bjieky66yvv9mh51oi543",
+        "name": "lastSyncedAt",
+        "dataType": "DATETIME",
+        "options": 0
+      }
+    },
+    "relationshipEntities": {
+      "03h8bgyriu8gh5d9s2rhf6mw1": {
+        "id": "03h8bgyriu8gh5d9s2rhf6mw1",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h8bfui66kbcq4tjcvq2g92d",
+          "columnIds": [
+            "03h8bfv7cq2tmr1pr62o5ingn"
+          ]
+        },
+        "end": {
+          "tableId": "03h8bg6mry47755yf5ou0oy77",
+          "columnIds": [
+            "03h8bgyriu8gh5d9s2pgd6q86"
+          ]
+        }
+      },
+      "03h8bhw11m5moko1irwo4xwrw": {
+        "id": "03h8bhw11m5moko1irwo4xwrw",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h8bh7p5me04n8tel68z6le3",
+          "columnIds": [
+            "03h8bh8i49lfpv5xdl965hw9z"
+          ]
+        },
+        "end": {
+          "tableId": "03h8bhp8k19xuxiyfawgqi2uq",
+          "columnIds": [
+            "03h8bhw11gkzki7nioit2ifqr"
+          ]
+        }
+      },
+      "03h8biropiwjt9pwj7kzwg0yi": {
+        "id": "03h8biropiwjt9pwj7kzwg0yi",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h8bh7p5me04n8tel68z6le3",
+          "columnIds": [
+            "03h8bh8i49lfpv5xdl965hw9z"
+          ]
+        },
+        "end": {
+          "tableId": "03h8bi4921xro6yzjlhuldg8r",
+          "columnIds": [
+            "03h8biropiwjt9pwj7j6pl7zs"
+          ]
+        }
+      },
+      "03h8biwa3vjaqm4roymdwgyp7": {
+        "id": "03h8biwa3vjaqm4roymdwgyp7",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h8bg6mry47755yf5ou0oy77",
+          "columnIds": [
+            "03h8bg7nhn0m31f0lw75m13yq"
+          ]
+        },
+        "end": {
+          "tableId": "03h8bi4921xro6yzjlhuldg8r",
+          "columnIds": [
+            "03h8biwa3vjaqm4royiv465ms"
+          ]
+        }
+      },
+      "03h8bixv6xu7huw4oo8eyqqv3": {
+        "id": "03h8bixv6xu7huw4oo8eyqqv3",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h8bfui66kbcq4tjcvq2g92d",
+          "columnIds": [
+            "03h8bfv7cq2tmr1pr62o5ingn"
+          ]
+        },
+        "end": {
+          "tableId": "03h8bi4921xro6yzjlhuldg8r",
+          "columnIds": [
+            "03h8bixv6xu7huw4oo6ewcffm"
+          ]
+        }
+      },
+      "03h8bjb4w2kn6llx9wc7lmbid": {
+        "id": "03h8bjb4w2kn6llx9wc7lmbid",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h8bh7p5me04n8tel68z6le3",
+          "columnIds": [
+            "03h8bh8i49lfpv5xdl965hw9z"
+          ]
+        },
+        "end": {
+          "tableId": "03h8bj8fbimxcrp1loovcl02g",
+          "columnIds": [
+            "03h8bjb4vx17v3foli93ww8q5"
+          ]
+        }
+      }
+    },
+    "tableGroupEntities": {
+      "03h8bh62qei1s930m4kpes761": {
+        "id": "03h8bh62qei1s930m4kpes761",
+        "name": "Products",
+        "ui": {
+          "x": -82.3194,
+          "y": 283.6088,
+          "width": 1103,
+          "height": 292
+        }
+      },
+      "03h8bjhf5aegbrxq8vn3przsq": {
+        "id": "03h8bjhf5aegbrxq8vn3przsq",
+        "name": "Purchases",
+        "ui": {
+          "x": -101.0526,
+          "y": 642.158,
+          "width": 1128,
+          "height": 558
+        }
+      }
+    }
+  }
+}
