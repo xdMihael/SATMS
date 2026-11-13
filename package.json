@@ -1,0 +1,10 @@
+{
+  "name": "satms",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && npx tsx watch src/index.ts",
+    "dev:web": "cd web && npm run dev",
+    "test": "cd server && npx vitest run",
+    "typecheck": "tsc --noEmit && cd server && tsc --noEmit"
+  }
+}
